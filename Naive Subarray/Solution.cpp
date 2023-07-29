@@ -21,6 +21,6 @@ long long solve(std::array<int, S> input){
 
 int main(){
     std::array<int, 27> q = {6,1,7,4,6,7,1,4,7,1,4,6,6,7,4,1,6,4,7,1,4,5,3,2,1,6,9};
-    solve(q);
+    std::cout << solve(q) << std::endl;
 }
 
